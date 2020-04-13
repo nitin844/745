@@ -1,0 +1,26 @@
+import turtle
+trtl=turtle.Turtle()
+screen=turtle.Screen()
+screen.setup(900,500)
+screen.bgcolor('black')
+trtl.pencolor('white')
+trtl.pensize(5)
+trtl.speed(1)
+
+trtl.shape('turtle')
+trtl.forward(100)
+trtl.right(90)
+trtl.forward(100)
+trtl.right(90)
+trtl.forward(100)
+trtl.right(90)
+trtl.forward(100)
+
+trtl.penup()
+trtl.setpos(-120,100)
+trtl.pendown()
+trtl.pencolor('red')
+trtl.write('NKB Bhai'),
+font=("Arial",100,"bold")
+trtl.penup()
+trtl.ht()
